@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="responsive.min.css "> -->
     <style>
         /* Inspired by this pen by Pieter Biesemans https://codepen.io/pieter-biesemans/pen/BQBWXX and My Mother Before Me project http://mymotherbeforeme.com/ */
 
@@ -87,40 +89,192 @@ body {
   background-color: #adadad;
   color: white;
 }
+.a{
+  width: 40%;
+}
 
-    </style>
-    
+.a1{
+  height: 100vh;
+}
+
+.a2{
+  width: 40%;
+}
+.a3{
+  height: 100vh;
+}
+
+.a4{
+  height: 100vh;
+}
+
+.a5{
+  width: 40%; height:100vh;
+}
+.a6{
+  margin-top: 0;
+}
+/* ///////////////////////////////////////////////////////////////////////// */
+@media only screen and (max-width: 1250px) {
+  
+  body {
+  font-family: Hepta Slab, sans-serif;
+  font-weight: 500;
+  background: #000000;
+  color: #ffffff;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* hide scrollbar */
+::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+::-webkit-scrollbar-button {
+  width: 1px;
+  height: 1px;
+}
+.external {
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
+}
+
+.horizontal-scroll-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vh;
+  transform: rotate(-90deg) translate3d(0,-100vh,0);
+  transform-origin: right top;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 0;
+  height: 100vw;
+  perspective: 1px;
+	transform-style:flat;
+  padding-bottom: 10rem;
+}
+.img-wrapper {
+  transform: rotate(90deg);
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  transform-origin: 50% 50%;
+  transition: 1s;
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #adadad;
+  color: white;
+}
+.a{
+  display: none;
+}
+
+.a1{
+  height: 100vh;
+  width: 90vw;
+  margin-left: -100vw;
+  margin-right: 10vw;
+}
+
+.a2{
+  display: none;
+}
+.a3{
+  height: 50vh;
+}
+.a7{
+  width:"5vw"; height:"5vh";
+}
+.a8{
+
+}
+.a4{
+  height: 100vh;
+}
+
+.a5{
+  width: 40%; height:100vh;
+}
+.a6{
+  margin-top: 0;
+}
+
+
+
+
+}
+
+
+</style>
+
+
+
+
+
 </head>
 <body>
     <div class="external" >
         <div class="horizontal-scroll-wrapper" >
             <div class="img-wrapper">
-                <img src="/images/black.jpg" style="width: 40%;"></img>
+                <img src="/images/black.jpg" class="a"></img>
               </div>
           <div class="img-wrapper">
-            <img src="/images/nmmun welcome.gif" style="height: 100vh; "></img>
+            <img src="/images/nmmun welcome.gif" class="a1"></img>
           </div>
           <div class="img-wrapper">
-            <img src="/images/black.jpg" style="width: 40%;"></img>
+            <img src="/images/black.jpg" class="a2"></img>
           </div>
           <div class="img-wrapper">
-            <img src="/images/annannanan-removebg.png" style="height: 100vh; "></img>
+            <img src="/images/annannanan-removebg.png" class="a3"></img>
           </div>
       
           <div class="img-wrapper">
+            <div class="a7">
             <video width="100%" height="100%" autoplay muted ><source src="/videos/agenda.mp4" type="video/mp4"></video>
           </div>
-      
-          <div class="img-wrapper">
-            <img src="/images/black.jpg" ></img>
           </div>
       
           <div class="img-wrapper">
-            <img src="https://d3n32ilufxuvd1.cloudfront.net/55c4887f2541c97e1b608fee/1428831/upload-b8e188ee-e7b9-44b5-a25a-9e374cb96cee.gif" style="height: 100vh;"></img>
+            <img src="/images/black.jpg" class="a8"></img>
+          </div>
+      
+          <div class="img-wrapper">
+            <img src="https://d3n32ilufxuvd1.cloudfront.net/55c4887f2541c97e1b608fee/1428831/upload-b8e188ee-e7b9-44b5-a25a-9e374cb96cee.gif" class="a4"></img>
           </div>
           
           <div class="img-wrapper">
-            <img src="/images/black.jpg" style="width: 40%; height:100vh;" ></img>
+            <img src="/images/black.jpg" class="a5" ></img>
           </div>
 
           <div class="img-wrapper">
@@ -128,7 +282,7 @@ body {
           </div>
       
           <div class="img-wrapper">
-            <img src="https://d3n32ilufxuvd1.cloudfront.net/55c4887f2541c97e1b608fee/1428831/upload-ca4ccd25-ed46-4db8-a9c8-c0b0031ccbb6.gif" height="85%" style="margin-top: 0;"></img>
+            <img src="https://d3n32ilufxuvd1.cloudfront.net/55c4887f2541c97e1b608fee/1428831/upload-ca4ccd25-ed46-4db8-a9c8-c0b0031ccbb6.gif" height="85%" class="a6"></img>
           </div>
         </div>
        
@@ -180,6 +334,11 @@ body {
       <h1>hello</h1>
       <h1>hello</h1>
     
+      <!-- <script src="/responsive.js"></script>
+      <script src="/responsive.min.js"></script>
+      <script src="/vendor/jquery-2.1.4.min.js"></script> -->
+      
+
 
 </body>
 </html>
