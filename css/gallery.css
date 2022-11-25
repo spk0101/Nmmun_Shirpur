@@ -10,16 +10,16 @@ body {
     /* Color scheme */
     --body-text: #333;
     --body-bg: #ccd8e4;
-    --link-text: #442ef4;
+    --link-text: #fff;
     --link-text-hover: #333;
-    --grid-name-text: #442ef4;
-    --grid-title-text: #442ef4;
+    --grid-name-text: #fff;
+    --grid-title-text: #fff;
     --grid-nav-text: #fff;
     --grid-nav-bg: #442ef4;
     --grid-nav-text-hover: #fff;
     --grid-nav-bg-hover: #1f1f1f;
     --grid-text: #333;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: 'Playfair Display', serif;
     min-height: 600px;
     color: #333;
     color: var(--body-text);
@@ -269,7 +269,7 @@ a:focus {
 .grid__item--title {
     text-transform: uppercase;
     line-height: 0.8;
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 
 .grid__item--name {
@@ -374,10 +374,11 @@ a:focus {
     background-image: url("/assets/img/2017/4.jpg");
 }
 
-.grid--layout-1 .grid__item:nth-child(5) {
+
+/* .grid--layout-1 .grid__item:nth-child(5) {
     grid-area: 1 / 11 / 8 / 15;
     background-image: url("/assets/img/2017/6.jpg");
-}
+} */
 
 .grid--layout-1 .grid__item:nth-child(6) {
     grid-area: 17 / 15 / 24 / 20;
@@ -389,10 +390,11 @@ a:focus {
     background-image: url("/assets/img/2017/8.jpg");
 }
 
-.grid--layout-1 .grid__item:nth-child(8) {
+
+/* .grid--layout-1 .grid__item:nth-child(8) {
     grid-area: 2 / 18 / 9 / 23;
     background-image: url("/assets/img/2017/9.jpg");
-}
+} */
 
 .grid--layout-1 .grid__item:nth-child(9) {
     grid-area: 17 / 20 / 22 / 26;
@@ -404,10 +406,11 @@ a:focus {
     background-image: url("/assets/img/2017/1.jpg");
 }
 
-.grid--layout-1 .grid__item:nth-child(11) {
+
+/* .grid--layout-1 .grid__item:nth-child(11) {
     grid-area: 4 / 23 / 11 / 27;
     background-image: url("/assets/img/2017/2.jpg");
-}
+} */
 
 .grid--layout-1 .grid__item:nth-child(12) {
     grid-area: 11 / 23 / 17 / 30;
@@ -442,6 +445,11 @@ a:focus {
 
 /* Layout 2 */
 
+.grid--layout-2 .grid__item:nth-child(4) {
+    grid-area: 11 / 1 / 17 / 5;
+    background-image: url("/assets/img/2018/4.jpg");
+}
+
 .grid--layout-2 .grid__item:first-child {
     grid-area: 17 / 1 / 24 / 5;
     background-image: url("/assets/img/2018/1.jpg");
@@ -457,20 +465,16 @@ a:focus {
     background-image: url("/assets/img/2018/3.jpg");
 }
 
-.grid--layout-2 .grid__item:nth-child(4) {
-    grid-area: 17 / 10 / 26 / 15;
-    background-image: url("/assets/img/2018/4.jpg");
-}
-
 .grid--layout-2 .grid__item:nth-child(5) {
     grid-area: 1 / 10 / 17 / 15;
     background-image: url("/assets/img/2018/6.jpg");
 }
 
-.grid--layout-2 .grid__item:nth-child(6) {
+
+/* .grid--layout-2 .grid__item:nth-child(6) {
     grid-area: 11 / 15 / 24 / 20;
     background-image: url("/assets/img/2018/7.jpg");
-}
+} */
 
 .grid--layout-2 .grid__item:nth-child(7) {
     grid-area: 5 / 15 / 11 / 18;
@@ -478,7 +482,7 @@ a:focus {
 }
 
 .grid--layout-2 .grid__item:nth-child(8) {
-    grid-area: 1 / 18 / 11 / 23;
+    grid-area: 11 / 15 / 24 / 20;
     background-image: url("/assets/img/2018/9.jpg");
 }
 
@@ -503,7 +507,7 @@ a:focus {
 }
 
 .grid--layout-2 .grid__item:nth-child(13) {
-    grid-area: 25 / 24 / 29 / 28;
+    grid-area: 4 / 23 / 11 / 27;
     background-image: url("/assets/img/2018/4.jpg");
 }
 
@@ -548,7 +552,7 @@ a:focus {
 }
 
 .grid--layout-3 .grid__item:nth-child(4) {
-    grid-area: 19 / 10 / 28 / 20;
+    grid-area: 22 / 6/ 30 / 15;
     background-image: url("/assets/img/2019/4.jpeg");
 }
 
@@ -563,7 +567,7 @@ a:focus {
 }
 
 .grid--layout-3 .grid__item:nth-child(7) {
-    grid-area: 11 / 15 / 19 / 20;
+    grid-area: 11 / 20 / 20 / 30;
     background-image: url("/assets/img/2019/7.jpeg");
 }
 
@@ -587,10 +591,11 @@ a:focus {
     background-image: url("/assets/img/2019/2.jpeg");
 }
 
-.grid--layout-3 .grid__item:nth-child(12) {
+
+/* .grid--layout-3 .grid__item:nth-child(12) {
     grid-area: 11 / 20 / 20 / 30;
     background-image: url("/assets/img/2019/3.jpeg");
-}
+} */
 
 .grid--layout-3 .grid__item:nth-child(13) {
     grid-area: 20 / 24 / 26 / 28;
