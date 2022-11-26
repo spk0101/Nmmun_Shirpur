@@ -492,7 +492,7 @@ a:focus {
 }
 
 .grid--layout-2 .grid__item:nth-child(10) {
-    grid-area: 24 / 15 / 29 / 20;
+    grid-area: 24 / 25 / 29 / 20;
     background-image: url("/assets/img/2018/1.jpg");
 }
 
