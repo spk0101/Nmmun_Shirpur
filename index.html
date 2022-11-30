@@ -66,48 +66,46 @@
         .h1 {
           font-size: 40px;
         }
-        .container1 {
-  position: relative;
-  width: 100%;
-  max-width: 400px;
-  text-align: center;
-  color: white;
-}
-
-
-.container1 .btn {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  text-align: center;
-}
-
-.container1 .btn:hover {
-  background-color: black;
-}
-.centered1 {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
         .text_over_image{
-           position: absolute;
+          position: absolute;
           text-align: center;
           color: white;
           top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-    }  
+          left: 50%;
+          transform: translate(-50%, -50%);
+    } 
+        .container1 {
+          width: 100%;
+            height: 100%;
+            margin: auto;
+        }
+        
+
+        .container1 .btn {
+          position: absolute;
+          top: 60%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          background-color: rgb(36, 17, 209);
+          color: white;
+          font-size: 16px;
+          padding: 12px 24px;
+          border: none;
+          cursor: pointer;
+          border-radius: 5px;
+          text-align: center;
+        }
+        .container1 .btn:hover {
+          background-color: black;
+        }
+        .centered1 {
+          position: absolute;
+          top: 40%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+         
         /* Swiper JS CSS Ends here */
         
         body {
@@ -312,15 +310,72 @@
     <!-- Hero Starts here , There is always a room for improvement -->
     <div class="swiper mySwiper ">
         <div class="swiper-wrapper ">
-            <div class="swiper-slide "><img src="/assets/img/caraousel/1.jpeg " alt="Some Image "></div>
-            <div class="swiper-slide "><img src="/assets/img/caraousel/2.jpeg " alt="Some Image "></div>
-            <div class="swiper-slide "><img src="/assets/img/caraousel/3.jpeg " alt=" Some Image"></div>
-            <div class="swiper-slide "><img src="/assets/img/caraousel/4.jpeg " alt=" Some Image"></div>
-            <div class="swiper-slide "><img src="/assets/img/caraousel/5.jpeg " alt="Some Image "></div>
-            <div class="swiper-slide "><img src="/assets/img/caraousel/6.jpeg " alt="Some Image "></div>
-            <div class="swiper-slide "><img src="/assets/img/caraousel/7.jpeg " alt="Some Image "></div>
-            <div class="swiper-slide "><img src="/assets/img/caraousel/9.jpeg " alt=" Some Image"></div>
-            <div class="swiper-slide "><img src="/assets/img/caraousel/8.jpeg " alt="Some Image"></div>
+          
+            <div class="swiper-slide ">
+              <div class="wrap">
+                <div><img src="/assets/img/caraousel/1.jpeg " alt="Some Image ">
+                  <h1 style="font-size:3vw;", class="text_over_image">Upcoming Event(29-30 January)</h1>
+                </div>
+          </div>
+            </div>
+          
+            <div class="swiper-slide ">
+              <div class="container1">
+                <img src="/assets/img/caraousel/2.jpeg " alt="Some Image ">
+                <button class="btn">Click Here</button>
+                <div class="centered1">See The Committees For This Year</div>
+              </div>
+            </div>
+            <div class="swiper-slide ">
+              <div class="container1">
+                <img src="/assets/img/caraousel/3.jpeg " alt=" Some Image">
+                <button class="btn">Register Here</button>
+                <div class="centered1">Registrations Open Now</div>
+              </div>
+            </div>                
+
+            <div class="swiper-slide ">
+              <div class="container1">
+                <img src="/assets/img/caraousel/4.jpeg " alt=" Some Image">
+                <button class="btn">Register Here</button>
+                <div class="centered1">Registrations Open Now</div>
+              </div>
+            </div> 
+            <div class="swiper-slide ">
+              <div class="container1">
+                <img src="/assets/img/caraousel/5.jpeg " alt=" Some Image">
+                <button class="btn">Register Here</button>
+                <div class="centered1">Registrations Open Now</div>
+              </div>
+            </div> 
+            <div class="swiper-slide ">
+              <div class="container1">
+                <img src="/assets/img/caraousel/6.jpeg " alt=" Some Image">
+                <button class="btn">Register Here</button>
+                <div class="centered1">Registrations Open Now</div>
+              </div>
+            </div> 
+            <div class="swiper-slide ">
+              <div class="container1">
+                <img src="/assets/img/caraousel/7.jpeg " alt=" Some Image">
+                <button class="btn">Register Here</button>
+                <div class="centered1">Registrations Open Now</div>
+              </div>
+            </div> 
+            <div class="swiper-slide ">
+              <div class="container1">
+                <img src="/assets/img/caraousel/8.jpeg " alt=" Some Image">
+                <button class="btn">Register Here</button>
+                <div class="centered1">Registrations Open Now</div>
+              </div>
+            </div> 
+            <div class="swiper-slide ">
+              <div class="container1">
+                <img src="/assets/img/caraousel/9.jpeg " alt=" Some Image">
+                <button class="btn">Register Here</button>
+                <div class="centered1">Registrations Open Now</div>
+              </div>
+            </div> 
         </div>
         <div class="swiper-button-next "></div>
         <div class="swiper-button-prev "></div>
