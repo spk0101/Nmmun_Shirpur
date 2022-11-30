@@ -526,7 +526,7 @@ a:focus {
 }
 
 .grid--layout-2 .grid__item--nav-prev {
-    grid-area:3 / 6 / 8 / 11;
+    grid-area: 3 / 6 / 8 / 11;
 }
 
 .grid--layout-2 .grid__item--nav-next {
