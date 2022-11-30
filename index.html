@@ -173,6 +173,70 @@
             background-color: #000;
             z-index: 1000;
         }
+
+        @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Black+Han+Sans&display=swap");
+        .container11 {
+  background: black;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.container11 h1 {
+  font-family: "Black Han Sans", sans-serif;
+  letter-spacing: 6px;
+  word-spacing: 6px;
+  color: #fff;
+}
+.content1 {
+  padding-top: 8px;
+}
+.pbox {
+  width: 90vw;
+  height: 180px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.box1 {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  transform: rotate(45deg);
+  justify-content: center;
+  background: transparent;
+  border-radius: 8px;
+-webkit-box-shadow: 0px 0px 35px 8px rgba(255,255,255,0.77);
+-moz-box-shadow: 0px 0px 35px 8px rgba(255,255,255,0.77);
+box-shadow: 0px 0px 35px 8px rgba(255,255,255,0.77);
+animation: pulse 2s infinite;
+}
+
+/* .box:first-of-type{
+            border-top-left-radius: 8px;
+            border-bottom-left-radius: 8px;
+        }
+        .box:last-of-type{
+            border-top-right-radius: 8px;
+            border-bottom-right-radius: 8px;
+        } */
+.font1 {
+  font-family: "Alfa Slab One", cursive;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 4px;
+  width: 400;
+  transform: rotate(-45deg);
+}
+
+
+
     </style>
     <!-- Preloader Ends here -->
     <script type="text/javascript">
@@ -197,7 +261,7 @@
                 <img src="/assets/img/black.jpg" style="width: 40%;" alt="someimage"></img>
             </div>
             <div class="img-wrapper1">
-                <img src="/assets/img/nmmun welcome 1.gif" style="height: 100vh; " alt="someimage"></img>
+                <img src="/assets/img/narsee monjee.gif" style="height: 100vh; " alt="someimage"></img>
             </div>
             <div class="img-wrapper1">
                 <img src="/assets/img/black.jpg" style="width: 40%;" alt="someimage"></img>
@@ -207,16 +271,72 @@
             </div>
 
             <div class="img-wrapper1">
-                <video width="100%" height="100%" autoplay muted><source src="/assets/videos/agenda.mp4" type="video/mp4"></video>
+                <video width="100%" height="100%" autoplay muted><source src="/assets/videos/ready.mp4" type="video/mp4"></video>
             </div>
 
-            <div class="img-wrapper1">
+            <div class="img-wrapper1" style="width: 50vw;">
                 <img src="/assets/img/black.jpg"></img>
             </div>
 
+            <!-- <div class="img-wrapper1">
+              <div class="container11">
+                <h1 style="text-decoration:underline; font-size: xx-large; font-weight: bolder;">OUR STATISTICS</h1>
+                <br>
+                <br>
+                <br>
+                <div class="content1">
+                  <div class="pbox">
+                    <div class="box1">
+                      <div class="count font1" data-time="2000">100</div>
+                    </div>
+                    <span style="font-size: large; font-weight: bold;">MUNS CONDUCTED TILL DATE     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        DELEGATES PARTICIPATED</span>
+              
+                    <div class="box1">
+                      <div class="count font1" data-time="2000">200</div>
+                    </div>
+                    </div>
+                    <div class="pbox">
+                    <div class="box1">
+                      <div class="count font1" data-time="2000">150</div>
+                    </div>
+                    <span style="font-size: large; font-weight: bold;">EVENTS HELLO TILL      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        DELEGATES DIED </span>
+
+                    <div class="box1">
+                      <div class="count font1" data-time="2000">300</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <script>
+              var count = document.querySelectorAll(".count");
+var arr = Array.from(count);
+
+count.innerHTML = "";
+var zero = 0;
+
+arr.map((item) => {
+  var val = item.innerHTML;
+
+  function counter() {
+    item.innerHTML = zero++;
+    if (zero > val) {
+      clearInterval(fun);
+    }
+  }
+
+  let fun = setInterval(() => {
+    counter();
+  }, item.dataset.time / val);
+});
+
+            </script>
+
+            </div> -->
+
             <div class="img-wrapper1">
-                <img src="https://d3n32ilufxuvd1.cloudfront.net/55c4887f2541c97e1b608fee/1428831/upload-b8e188ee-e7b9-44b5-a25a-9e374cb96cee.gif" style="height: 100vh; width: 200%;"></img>
-            </div>
+              <video width="100%" height="100%" autoplay muted><source src="/assets/videos/WE ARE BACK !.mp4" type="video/mp4"></video>
+          </div>
+
 
             <div class="img-wrapper1">
                 <img src="/assets/img/black.jpg" style="width: 40%; height:100vh;" alt="someimage"></img>
@@ -227,8 +347,19 @@
             </div>
 
             <div class="img-wrapper1">
-                <img src="https://d3n32ilufxuvd1.cloudfront.net/55c4887f2541c97e1b608fee/1428831/upload-ca4ccd25-ed46-4db8-a9c8-c0b0031ccbb6.gif" height="85%" style="margin-top: 0;" alt="someimage"></img>
+              <img src="/assets/img/black.jpg" style="width: 10%; height:100vh;" alt="someimage"></img>
+          </div>
+
+            <!-- <div class="img-wrapper" style="transform: rotate(90deg);">
+              <div class="a9 a10">
+              <video width="100%" height="100%" autoplay muted ><source src="/assets/videos/lets go.mp4" type="video/mp4"></video>
+              </div> -->
+  
+              <div class="img-wrapper1" style="width: 500px;">
+                <img src="/assets/img/black.jpg"></img>
             </div>
+
+          </div>
         </div>
 
     </div>
@@ -1125,7 +1256,7 @@
             <div class="content " style="margin-left:15%;size:200%; ">
                 <div class="grid ">
                     <a class="grid__item " href="#preview-1 ">
-                        <div class="box ">
+                        <div class="box">
 
                             <div class="box__shadow "></div>
                             <img class="box__img " src="img/1.png " alt="Some image " />
