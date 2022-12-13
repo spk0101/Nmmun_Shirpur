@@ -561,7 +561,7 @@ main {
 .overlay__content {
     font-size: 1rem;
     line-height: 1.5;
-    max-width: 25rem;
+    max-width: 125rem;
     margin: 1rem 0 0 10vw;
 }
 
