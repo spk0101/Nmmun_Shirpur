@@ -60,7 +60,7 @@ a:focus {
 }
 
 
-/* Page Loader */
+/* Page Loader_ */
 
 .js .loading::before {
     content: '';
