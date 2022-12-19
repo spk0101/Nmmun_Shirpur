@@ -720,22 +720,22 @@ a:focus {
 
 .grid--layout-5 .grid__item:first-child {
     grid-area: 11 / 1 / 17 / 5;
-    background-image: url("/assets/img/2020/1.jpeg");
+    background-image: url("/img/2021/1.jpeg");
 }
 
 .grid--layout-5 .grid__item:nth-child(2) {
     grid-area: 22 / 6 / 28 / 10;
-    background-image: url("/assets/img/2020/2.jpeg");
+    background-image: url("/img/2021/2.jpeg");
 }
 
 .grid--layout-5 .grid__item:nth-child(3) {
     grid-area: 8 / 5 / 22 / 15;
-    background-image: url("/assets/img/2020/3.jpeg");
+    background-image: url("/img/2021/3.jpeg");
 }
 
 .grid--layout-5 .grid__item:nth-child(4) {
     grid-area: 22 / 10 / 29 / 15;
-    background-image: url("/assets/img/2020/4.jpeg");
+    background-image: url("/img/2021/4.jpeg");
 }
 
 
@@ -746,12 +746,12 @@ a:focus {
 
 .grid--layout-5 .grid__item:nth-child(6) {
     grid-area: 17 / 15 / 24 / 20;
-    background-image: url("/assets/img/2020/7.jpeg");
+    background-image: url("/img/2021/5.jpeg");
 }
 
 .grid--layout-5 .grid__item:nth-child(7) {
     grid-area: 9 / 15 / 17 / 23;
-    background-image: url("/assets/img/2020/8.jpeg");
+    background-image: url("/img/2021/6.jpeg");
 }
 
 
@@ -762,12 +762,12 @@ a:focus {
 
 .grid--layout-5 .grid__item:nth-child(9) {
     grid-area: 17 / 20 / 22 / 26;
-    background-image: url("/assets/img/2020/10.jpeg");
+    background-image: url("/img/2020/7.jpeg");
 }
 
 .grid--layout-5 .grid__item:nth-child(10) {
     grid-area: 22 / 20 / 28 / 23;
-    background-image: url("/assets/img/2020/1.jpeg");
+    background-image: url("/img/2020/8.jpeg");
 }
 
 
@@ -778,12 +778,12 @@ a:focus {
 
 .grid--layout-5 .grid__item:nth-child(12) {
     grid-area: 11 / 23 / 17 / 30;
-    background-image: url("/assets/img/2020/3.jpeg");
+    background-image: url("/img/2020/9.jpeg");
 }
 
 .grid--layout-5 .grid__item:nth-child(13) {
     grid-area: 17 / 26 / 22 / 28;
-    background-image: url("/assets/img/2020/4.jpeg");
+    background-image: url("/img/2020/10.jpeg");
 }
 
 .grid--layout-5 .grid__item--name {

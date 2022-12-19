@@ -137,7 +137,7 @@
 				};
 				for (let i = 0, len = this.textElems.length; i < len; i++) {
 					const promise = this.animateText(this.textElems[i], 'In');
-					promises.push(promise);
+					promises.push(promise);   
 				};
 				Promise.all(promises).then(() => {
 					this.resetTextClasses('In');
