@@ -452,31 +452,30 @@ a:focus {
 
 
 /* Layout 2 */
-
 .grid--layout-2 .grid__item:first-child {
     grid-area: 11 / 1 / 17 / 5;
-    background-image: url("/img/2018/1.jpg");
+    background-image: url("/img/2018/1.JPG");
 }
 
 .grid--layout-2 .grid__item:nth-child(2) {
     grid-area: 22 / 6 / 28 / 10;
-    background-image: url("/img/2018/8.jpg");
+    background-image: url("/img/2018/8.JPG");
 }
 
 .grid--layout-2 .grid__item:nth-child(3) {
     grid-area: 8 / 5 / 22 / 15;
-    background-image: url("/img/2018/3.jpg");
+    background-image: url("/img/2018/3.JPG");
 }
 
 .grid--layout-2 .grid__item:nth-child(4) {
     grid-area: 22 / 10 / 29 / 15;
-    background-image: url("/img/2018/10.jpg");
+    background-image: url("/img/2018/10.JPG");
 }
 
 
 /* .grid--layout-2 .grid__item:nth-child(5) {
     grid-area: 1 / 11 / 8 / 15;
-    background-image: url("/assets/img/2017/6.jpg");
+    background-image: url("/assets/img/2018/6.jpg");
 } */
 
 .grid--layout-2 .grid__item:nth-child(6) {
@@ -486,13 +485,13 @@ a:focus {
 
 .grid--layout-2 .grid__item:nth-child(7) {
     grid-area: 9 / 15 / 17 / 23;
-    background-image: url("/img/2018/2.jpg");
+    background-image: url("/img/2018/2.JPG");
 }
 
 
-/* .grid--layout-1 .grid__item:nth-child(8) {
+/* .grid--layout-2 .grid__item:nth-child(8) {
     grid-area: 2 / 18 / 9 / 23;
-    background-image: url("/assets/img/2018/9.jpg");
+    background-image: url("/img/2018/9.JPG");
 } */
 
 .grid--layout-2 .grid__item:nth-child(9) {
@@ -508,17 +507,17 @@ a:focus {
 
 /* .grid--layout-2 .grid__item:nth-child(11) {
     grid-area: 4 / 23 / 11 / 27;
-    background-image: url("/assets/img/2018/2.jpg");
+    background-image: url("/img/2018/2.JPG");
 } */
 
 .grid--layout-2 .grid__item:nth-child(12) {
     grid-area: 11 / 23 / 17 / 30;
-    background-image: url("img/2018/5.jpg");
+    background-image: url("/img/2018/5.JPG");
 }
 
 .grid--layout-2 .grid__item:nth-child(13) {
     grid-area: 17 / 26 / 22 / 28;
-    background-image: url("/img/2018/4.jpg");
+    background-image: url("/img/2018/4.JPG");
 }
 
 .grid--layout-2 .grid__item--name {
@@ -540,6 +539,7 @@ a:focus {
 .grid--layout-2 .grid__item--nav-next {
     grid-area: 24 / 15 / 29 / 20;
 }
+
 
 
 /* Layout 3 */
