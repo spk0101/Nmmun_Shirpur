@@ -48,6 +48,14 @@ a:focus {
     pointer-events: none;
 }
 
+.desktopview {
+    display: block;
+}
+
+.mobileview {
+    display: none;
+}
+
 
 /* Icons */
 
@@ -878,6 +886,15 @@ a:focus {
     }
     .demo {
         margin: 0 0.5em;
+    }
+    .desktopview {
+        display: none;
+    }
+    .mobileview {
+        display: block;
+    }
+    .desktopspacing {
+        display: none;
     }
     main .grid {
         height: auto;
